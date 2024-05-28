@@ -10,22 +10,35 @@ export default function Home() {
   const videoTitle = 'Top 5 Points from Xu xin!';
   const videoDescription = "5 de mar. de 2022  #XuXin 😛";
   const [inputText, setInputText] = useState('');
-  const handleTextChange = (text) => {
-    setInputText(text);
-  };
-
-  return (
+  const handleTextChange = (text) => {setInputText(text);}
     
+  
+    return(
+
     <div className={styles.App}>
-      <header className={styles.Appheader}>
-        <TextInput onTextChange={handleTextChange} />
-      </header>
-      <div>
+      <div className={styles.header}> 
+      </div>    
+      <div className={styles.headeritem}>
+      <TextInput onTextChange={handleTextChange} />
+      </div>
+      
+
+      <div  className={styles.video}>
       <VideoSection videoId={videoId} title={videoTitle} description={videoDescription} />
       </div>
-      <div>
+      <div className={styles.teste1}>
+        as
+      </div>
+      <div className={styles.teste1}>
+        as
+      </div>
+      <div className={styles.teste1}>
+        as
+      </div>
+      <div className={styles.teste1}>
         as
       </div>
     </div>
   );
 }
+
