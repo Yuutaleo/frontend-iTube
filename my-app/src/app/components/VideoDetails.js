@@ -1,12 +1,12 @@
-// src/components/VideoDetails.js
 'use client'
 import React from 'react';
+import styles from "../styles/VideoDetails.module.css";
 
 export default function VideoDetails({ title, description }) {
   return (
-    <div className="video-details">
-      <h1 className="video-title">{title}</h1>
-      <p className="video-description">{description}</p>
+    <div className={styles.videoDetails}>
+      <h1 className={styles.videoTitle}>{title}</h1>
+      <p className={styles.videoDescription}>{description}</p>
     </div>
   );
 }

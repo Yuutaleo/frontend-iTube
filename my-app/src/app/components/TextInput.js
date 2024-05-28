@@ -1,6 +1,6 @@
-// src/components/TextInput.js
 "use client"
 import React, { useState } from 'react';
+import styles from "../styles/TextInput.module.css";
 
 export default function TextInput({ onTextChange }) {
   const [text, setText] = useState('');
@@ -12,7 +12,7 @@ export default function TextInput({ onTextChange }) {
   };
 
   return (
-    <div className="text-input-container">
+    <div className={styles.textInputContainer}>
       <input
         type="text"
         placeholder="Pesquisar"
