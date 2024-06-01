@@ -1,16 +1,42 @@
-.videoDetails {
-    text-align: left;
-    padding: 10px 0;
+  .videoDetails {
+    margin: 20px 0;
   }
   
-.videoTitle {
-    font-size: 24px;
+  .channelInfo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .channelAvatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .channelName {
     font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  .subscribeButton {
+    background-color: #cc0000;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .videoStats {
+    display: flex;
+    justify-content: space-between;
     margin: 10px 0;
   }
   
-.videoDescription {
-    font-size: 16px;
-    color: #606060;
+  .videoDescription {
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 4px;
   }
   

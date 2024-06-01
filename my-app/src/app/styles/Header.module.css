@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.removersub{
+  text-decoration: none;
+}
+
+  .searchBar {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 25px;
+    max-width: 400px;
+    margin: 0 390px;
+  }
+
+  .uploadButton,
+  .profileButton {
+    padding: 8px 16px;
+    border: none;
+    background-color: #9200cc;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .uploadButton:hover,
+  .profileButton:hover {
+    background-color: #ae00ff;
+  }
+ 
