@@ -7,7 +7,7 @@ export default function Comment() {
       <img src="/images/man.png" alt="Avatar Comentario" className={styles.commenterAvatar} />
       <div className={styles.commentBody}>
         <div className={styles.commenterName}>Jorge</div>
-        <div className={styles.commentTime}>há 1 hora</div>
+        <div className={styles.commentTime}>há 3 hora</div>
         <div className={styles.commentText}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt dictum arcu...
         </div>

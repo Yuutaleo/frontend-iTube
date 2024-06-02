@@ -1,15 +1,3 @@
-// 'use client'
-// import React from 'react';
-// import styles from "../styles/VideoDetails.module.css";
-
-// export default function VideoDetails({ title, description }) {
-//   return (
-//     <div className={styles.videoDetails}>
-//       <h1 className={styles.videoTitle}>{title}</h1>
-//       <p className={styles.videoDescription}>{description}</p>
-//     </div>
-//   );
-// }
 import React from 'react';
 import styles from '../styles/VideoDetails.module.css';
 
@@ -32,7 +20,7 @@ export default function VideoDetails() {
           você vai poder conversar com seus amigos usando o seu próprio chat online!<br/>
           Repositório do projeto:
           https://github.com/manualdodev/chat<br/>
-          Compartilhe o seu projeto e marca lá no LinkedIn do Manual do Dev:manualdodev<br/> 
+          Compartilhe o seu projeto e marca lá no LinkedIn do Manual do Dev: manualdodev<br/> 
           Resumo do que você vai aprender com esse vídeo:<br/>
           Nesse vídeo, vamos criar um backend simples usando Node.js e vamos desenvolver um frontend usando HTML, CSS e JavaScript puro. Em seguida, vamos conectar os dois. 
           Vamos criar componentes estilizados e bem bonitos usando CSS puro e manipulá-los de forma dinâmica através do nosso JavaScript!<br/>

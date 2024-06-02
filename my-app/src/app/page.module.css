@@ -1,13 +1,12 @@
 .app {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-  
+  font-family: 'Roboto', sans-serif;
 }
-
 
 .mainContent {
   display: flex;
   padding: 20px;
   padding-top: 80px;
+  
 }
 
 .videoSection {
@@ -15,3 +14,27 @@
   margin-right: 20px;
 }
 
+
+ /* .app {
+  font-family: Arial, sans-serif;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  padding-top: 80px; 
+}
+
+.videoSection {
+  width: 100%;
+  max-width: 800px;
+  margin-right: 100px;
+
+}
+
+.commentSection {
+  width: 100%;
+  max-width: 800px;
+} */
